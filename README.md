@@ -495,23 +495,23 @@
           </div>
 
           <aside class="stats-box" aria-label="Quick overview">
-            <p class="eyebrow" style="margin-bottom: 12px;">Preview</p>
+            <p class="eyebrow" style="margin-bottom: 12px;" data-i18n="preview_label">Preview</p>
             <div class="stat-grid">
               <div class="stat">
                 <strong>24/7</strong>
-                <span>Monitoring</span>
+                <span data-i18n="mon_title">Monitoring</span>
               </div>
               <div class="stat">
-                <strong>Risk</strong>
-                <span>Detection</span>
+                <strong data-i18n="stat_risk">Risk</strong>
+                <span data-i18n="det_title">Detection</span>
               </div>
               <div class="stat">
                 <strong>Audit</strong>
-                <span>Reporting</span>
+                <span data-i18n="rep_title">Reporting</span>
               </div>
               <div class="stat">
                 <strong>Cloud</strong>
-                <span>Security</span>
+                <span data-i18n="stat_security">Security</span>
               </div>
             </div>
           </aside>
@@ -591,10 +591,10 @@
 
           <div class="card-grid">
             <article class="card">
-              <span class="badge" data-i18n="status_planned">Planned</span>
-              <h3 data-i18n="lab1_title">Audit log alerts</h3>
+              <span class="badge" data-i18n="status_progress">In progress</span>
+              <h3 data-i18n="lab1_title">Log detector</h3>
               <p data-i18n="lab1_text">
-                Set up alerts for risky actions like root logins and public storage buckets in a free-tier cloud account.
+                A Python script that reads cloud audit logs and flags root logins, brute-force attempts, public buckets, and switched-off logging.
               </p>
             </article>
 
@@ -607,10 +607,10 @@
             </article>
 
             <article class="card">
-              <span class="badge" data-i18n="status_planned">Planned</span>
-              <h3 data-i18n="lab3_title">Attack trail walkthrough</h3>
+              <span class="badge" data-i18n="status_later">Later</span>
+              <h3 data-i18n="lab3_title">Cloud audit alerts</h3>
               <p data-i18n="lab3_text">
-                Walk through a simulated attack step by step and the log evidence it leaves behind.
+                Send real CloudTrail logs from a free-tier account into alerts for risky actions like root logins.
               </p>
             </article>
           </div>
@@ -669,6 +669,9 @@
           intro_text: "I keep an eye on cloud environments so threats get spotted before they become problems.",
           intro_btn: "Get in touch",
           intro_secondary: "Explore my work",
+          preview_label: "Preview",
+          stat_risk: "Risk",
+          stat_security: "Security",
           about_title: "About Me",
           about_text:
             "I'm passionate about technology and how it shapes the world. Beyond work, I'm curious about the bigger picture: how AI is changing what's possible, how geography shapes people and places, and how history explains the world we live in today.",
@@ -691,15 +694,17 @@
           labs_text:
             "Hands-on exercises I'm building in public over 30 days. Each one gets a short write-up when it's done.",
           status_planned: "Planned",
-          lab1_title: "Audit log alerts",
+          status_progress: "In progress",
+          status_later: "Later",
+          lab1_title: "Log detector",
           lab1_text:
-            "Set up alerts for risky actions like root logins and public storage buckets in a free-tier cloud account.",
+            "A Python script that reads cloud audit logs and flags root logins, brute-force attempts, public buckets, and switched-off logging.",
           lab2_title: "Misconfiguration scan",
           lab2_text:
             "Scan a test environment with an open-source tool, then write up what it finds and how to fix it.",
-          lab3_title: "Attack trail walkthrough",
+          lab3_title: "Cloud audit alerts",
           lab3_text:
-            "Walk through a simulated attack step by step and the log evidence it leaves behind.",
+            "Send real CloudTrail logs from a free-tier account into alerts for risky actions like root logins.",
           contact_title: "Contact",
           contact_text: "Want to talk security, tech, or ideas? Reach out.",
           label_email: "Email",
@@ -723,6 +728,9 @@
             "Je surveille les environnements cloud afin que les menaces soient détectées avant de devenir des problèmes.",
           intro_btn: "Me contacter",
           intro_secondary: "Voir mon travail",
+          preview_label: "Aperçu",
+          stat_risk: "Risque",
+          stat_security: "Sécurité",
           about_title: "À propos de moi",
           about_text:
             "Je suis passionné par la technologie et la façon dont elle façonne le monde. En dehors du travail, je m'intéresse à la vue d'ensemble : comment l'IA change le champ des possibles, comment la géographie façonne les peuples et les lieux, et comment l'histoire explique le monde dans lequel nous vivons aujourd'hui.",
@@ -745,15 +753,17 @@
           labs_text:
             "Des exercices pratiques que je construis en public sur 30 jours. Chacun aura un court compte rendu une fois terminé.",
           status_planned: "Prévu",
-          lab1_title: "Alertes sur les journaux d'audit",
+          status_progress: "En cours",
+          status_later: "Plus tard",
+          lab1_title: "Détecteur de journaux",
           lab1_text:
-            "Configurer des alertes pour les actions à risque, comme les connexions root et les buckets de stockage publics, sur un compte cloud gratuit.",
+            "Un script Python qui lit des journaux d'audit cloud et signale les connexions root, les attaques par force brute, les buckets publics et l'arrêt de la journalisation.",
           lab2_title: "Analyse des mauvaises configurations",
           lab2_text:
             "Analyser un environnement de test avec un outil open source, puis rédiger ce qu'il détecte et comment corriger.",
-          lab3_title: "Piste d'une attaque pas à pas",
+          lab3_title: "Alertes sur les journaux d'audit cloud",
           lab3_text:
-            "Parcourir une attaque simulée étape par étape et les traces qu'elle laisse dans les journaux.",
+            "Envoyer de vrais journaux CloudTrail d'un compte gratuit vers des alertes pour les actions à risque, comme les connexions root.",
           contact_title: "Contact",
           contact_text: "Envie de parler sécurité, technologie ou idées ? Écrivez-moi.",
           label_email: "E-mail",
