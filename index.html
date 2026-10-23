@@ -630,10 +630,17 @@
   <span class="badge" data-i18n="status_done">Done</span>
   <h3><a href="https://github.com/twistedsol/password-policy-checker" target="_blank" rel="noopener noreferrer" data-i18n="lab7_title" style="text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 4px;">Password policy checker</a></h3>
   <p data-i18n="lab7_text">A Python tool that reads a password policy file and flags weak settings like short minimums, no lockout, no MFA and weak hashing. Standard library only, 34 tests, no real passwords involved.</p>
-</article>  
+</article>
+          <article class="card">
+  <span class="badge" data-i18n="status_done">Done</span>
+  <h3><a href="https://github.com/twistedsol/sshd-config-checker" target="_blank" rel="noopener noreferrer" data-i18n="lab8_title" style="text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 4px;">SSH config checker</a></h3>
+  <p data-i18n="lab8_text">A Python tool that reads an SSH server config file and flags risky settings like root login, password logins and weak ciphers. It only reads files and never connects to a server. Standard library only, 41 tests.</p>
+</article>
+            
             <article class="card">
             <span class="badge" data-i18n="status_later">Later</span>
               <h3 data-i18n="lab3_title">Cloud audit alerts</h3>
+            
               <p data-i18n="lab3_text">
                 Send real CloudTrail logs from a free-tier account into alerts for risky actions like root logins.
               </p>
@@ -737,6 +744,8 @@ lab4_text:
 lab6_text: "A Python tool that reads the security headers of a web page and flags missing or weak ones. Standard library only, 47 tests, and it works on saved header files with no internet needed.",
           lab7_title: "Password policy checker",
 lab7_text: "A Python tool that reads a password policy file and flags weak settings like short minimums, no lockout, no MFA and weak hashing. Standard library only, 34 tests, no real passwords involved.",
+          lab8_title: "SSH config checker",
+lab8_text: "A Python tool that reads an SSH server config file and flags risky settings like root login, password logins and weak ciphers. It only reads files and never connects to a server. Standard library only, 41 tests.",
 lab3_title: "Cloud audit alerts",
           lab3_text:
             "Send real CloudTrail logs from a free-tier account into alerts for risky actions like root logins.",
@@ -806,6 +815,8 @@ lab4_text:
 lab6_text: "Un outil Python qui lit les en-têtes de sécurité d'une page web et signale ceux qui manquent ou sont faibles. Bibliothèque standard uniquement, 47 tests, et il fonctionne sur des fichiers d'en-têtes enregistrés, sans internet.",
           lab7_title: "Vérificateur de politique de mots de passe",
 lab7_text: "Un outil Python qui lit un fichier de politique de mots de passe et signale les réglages faibles, comme une longueur minimale courte, l'absence de blocage de compte, l'absence de MFA et un hachage faible. Bibliothèque standard uniquement, 34 tests, aucun vrai mot de passe utilisé.",
+          lab8_title: "Vérificateur de configuration SSH",
+lab8_text: "Un outil Python qui lit un fichier de configuration de serveur SSH et signale les réglages risqués, comme la connexion root, les connexions par mot de passe et les chiffrements faibles. Il ne fait que lire des fichiers et ne se connecte jamais à un serveur. Bibliothèque standard uniquement, 41 tests.",
           
           lab3_title: "Alertes sur les journaux d'audit cloud",
           lab3_text:
