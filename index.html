@@ -646,6 +646,11 @@
   <h3><a href="https://github.com/twistedsol/workflow-checker" target="_blank" rel="noopener noreferrer" data-i18n="lab10_title" style="text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 4px;">Workflow checker</a></h3>
   <p data-i18n="lab10_text">A Python tool that reads GitHub Actions workflow files and flags risky settings like loose permissions, unpinned actions and text from issues pasted into commands. Each finding shows its line number, and it checks its own workflow too. Standard library only, 51 tests.</p>
 </article>
+                      <article class="card">
+            <span class="badge" data-i18n="status_done">Done</span>
+            <h3><a href="https://github.com/twistedsol/compose-checker" target="_blank" rel="noopener" data-i18n="lab11_title" style="text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 4px;">Docker Compose checker</a></h3>
+            <p data-i18n="lab11_text">Reads docker-compose files and flags risky settings such as privileged containers, the Docker socket, public database ports and hardcoded secrets, with line numbers. 76 tests.</p>
+          </article>
             
             <article class="card">
             <span class="badge" data-i18n="status_later">Later</span>
@@ -760,6 +765,8 @@ lab8_text: "A Python tool that reads an SSH server config file and flags risky s
 lab9_text: "A Python tool that reads Dockerfiles and flags risky habits like running as root, secrets written in the file and piping a download into a shell. Each finding shows its line number. It only reads files and never builds anything. Standard library only, 46 tests.",
           lab10_title: "Workflow checker",
 lab10_text: "A Python tool that reads GitHub Actions workflow files and flags risky settings like loose permissions, unpinned actions and text from issues pasted into commands. Each finding shows its line number, and it checks its own workflow too. Standard library only, 51 tests.",
+                lab11_title: "Docker Compose checker",
+      lab11_text: "Reads docker-compose files and flags risky settings such as privileged containers, the Docker socket, public database ports and hardcoded secrets, with line numbers. 76 tests.",
 lab3_title: "Cloud audit alerts",
           lab3_text:
             "Send real CloudTrail logs from a free-tier account into alerts for risky actions like root logins.",
@@ -835,6 +842,8 @@ lab8_text: "Un outil Python qui lit un fichier de configuration de serveur SSH e
 lab9_text: "Un outil Python qui lit des Dockerfiles et signale les mauvaises habitudes, comme l'exécution en root, les secrets écrits dans le fichier et l'exécution d'un téléchargement dans un shell. Chaque résultat indique son numéro de ligne. Il ne fait que lire des fichiers et ne construit rien. Bibliothèque standard uniquement, 46 tests.",
           lab10_title: "Vérificateur de workflows",
 lab10_text: "Un outil Python qui lit des fichiers de workflow GitHub Actions et signale les réglages risqués, comme des permissions trop larges, des actions non épinglées et du texte d'issues collé dans des commandes. Chaque résultat indique son numéro de ligne, et il vérifie aussi son propre workflow. Bibliothèque standard uniquement, 51 tests.",
+                lab11_title: "Vérificateur Docker Compose",
+      lab11_text: "Lit les fichiers docker-compose et signale les réglages risqués : conteneurs privilégiés, socket Docker, ports de base de données publics et secrets écrits en dur, avec les numéros de ligne. 76 tests.",
           
           lab3_title: "Alertes sur les journaux d'audit cloud",
           lab3_text:
