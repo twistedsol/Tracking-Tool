@@ -636,6 +636,11 @@
   <h3><a href="https://github.com/twistedsol/sshd-config-checker" target="_blank" rel="noopener noreferrer" data-i18n="lab8_title" style="text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 4px;">SSH config checker</a></h3>
   <p data-i18n="lab8_text">A Python tool that reads an SSH server config file and flags risky settings like root login, password logins and weak ciphers. It only reads files and never connects to a server. Standard library only, 41 tests.</p>
 </article>
+            <article class="card">
+  <span class="badge" data-i18n="status_done">Done</span>
+  <h3><a href="https://github.com/twistedsol/dockerfile-checker" target="_blank" rel="noopener noreferrer" data-i18n="lab9_title" style="text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 4px;">Dockerfile checker</a></h3>
+  <p data-i18n="lab9_text">A Python tool that reads Dockerfiles and flags risky habits like running as root, secrets written in the file and piping a download into a shell. Each finding shows its line number. It only reads files and never builds anything. Standard library only, 46 tests.</p>
+</article>
             
             <article class="card">
             <span class="badge" data-i18n="status_later">Later</span>
@@ -746,6 +751,8 @@ lab6_text: "A Python tool that reads the security headers of a web page and flag
 lab7_text: "A Python tool that reads a password policy file and flags weak settings like short minimums, no lockout, no MFA and weak hashing. Standard library only, 34 tests, no real passwords involved.",
           lab8_title: "SSH config checker",
 lab8_text: "A Python tool that reads an SSH server config file and flags risky settings like root login, password logins and weak ciphers. It only reads files and never connects to a server. Standard library only, 41 tests.",
+          lab9_title: "Dockerfile checker",
+lab9_text: "A Python tool that reads Dockerfiles and flags risky habits like running as root, secrets written in the file and piping a download into a shell. Each finding shows its line number. It only reads files and never builds anything. Standard library only, 46 tests.",
 lab3_title: "Cloud audit alerts",
           lab3_text:
             "Send real CloudTrail logs from a free-tier account into alerts for risky actions like root logins.",
@@ -817,6 +824,8 @@ lab6_text: "Un outil Python qui lit les en-têtes de sécurité d'une page web e
 lab7_text: "Un outil Python qui lit un fichier de politique de mots de passe et signale les réglages faibles, comme une longueur minimale courte, l'absence de blocage de compte, l'absence de MFA et un hachage faible. Bibliothèque standard uniquement, 34 tests, aucun vrai mot de passe utilisé.",
           lab8_title: "Vérificateur de configuration SSH",
 lab8_text: "Un outil Python qui lit un fichier de configuration de serveur SSH et signale les réglages risqués, comme la connexion root, les connexions par mot de passe et les chiffrements faibles. Il ne fait que lire des fichiers et ne se connecte jamais à un serveur. Bibliothèque standard uniquement, 41 tests.",
+          lab9_title: "Vérificateur de Dockerfile",
+lab9_text: "Un outil Python qui lit des Dockerfiles et signale les mauvaises habitudes, comme l'exécution en root, les secrets écrits dans le fichier et l'exécution d'un téléchargement dans un shell. Chaque résultat indique son numéro de ligne. Il ne fait que lire des fichiers et ne construit rien. Bibliothèque standard uniquement, 46 tests.",
           
           lab3_title: "Alertes sur les journaux d'audit cloud",
           lab3_text:
