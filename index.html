@@ -722,6 +722,11 @@
                Emails an alert within about a minute when an S3 bucket is created, a bucket policy is changed or public access protection is removed. Built in AWS with CloudTrail, EventBridge and SNS.
               </p>
             </article>
+            <article class="card">
+  <span class="badge" data-i18n="status_done">Done</span>
+  <h3><a href="https://github.com/twistedsol/terraform-s3-lab" target="_blank" rel="noopener" data-i18n="lab13_title" style="text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 4px;">Terraform S3 scan</a></h3>
+  <p data-i18n="lab13_text">Scans a deliberately careless Terraform S3 bucket with Checkov, fixes it and scans again: 6 passed and 8 failed before, 16 passed and 4 failed after. Never deployed.</p>
+</article>
           </div>
         </div>
       </section>
@@ -852,6 +857,8 @@ lab10_text: "A Python tool that reads GitHub Actions workflow files and flags ri
 lab3_title: "Cloud audit alerts",
           lab3_text:
             "Emails an alert within about a minute when an S3 bucket is created, a bucket policy is changed or public access protection is removed. Built in AWS with CloudTrail, EventBridge and SNS.",
+                  lab13_title: "Terraform S3 scan",
+        lab13_text: "Scans a deliberately careless Terraform S3 bucket with Checkov, fixes it and scans again: 6 passed and 8 failed before, 16 passed and 4 failed after. Never deployed.",
           contact_title: "Contact",
           contact_text: "Want to talk security, tech, or ideas? Reach out.",
           label_email: "Email",
@@ -949,6 +956,8 @@ lab10_text: "Un outil Python qui lit des fichiers de workflow GitHub Actions et 
           lab3_title: "Alertes sur les journaux d'audit cloud",
           lab3_text:
            "Envoie un e-mail d'alerte en une minute environ quand un bucket S3 est créé, qu'une politique de bucket est modifiée ou que la protection d'accès public est supprimée. Construit sur AWS avec CloudTrail, EventBridge et SNS.",
+                  lab13_title: "Scan Terraform S3",
+        lab13_text: "Analyse avec Checkov un bucket S3 Terraform volontairement négligé, le corrige puis le rescanne : 6 contrôles réussis et 8 échoués avant, 16 réussis et 4 échoués après. Jamais déployé.",
           contact_title: "Contact",
           contact_text: "Envie de parler sécurité, technologie ou idées ? Écrivez-moi.",
           label_email: "E-mail",
